@@ -1,0 +1,36 @@
+.header {
+    min-height: 100px;
+    padding: 26px 31px;
+    display: flex;
+    justify-content: space-between;
+    &__wrapper {
+        width: 860px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__roll {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 700px;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    &__list {
+        font-size: 15px;
+        line-height: 18px;
+        color: $second-color;
+    }
+    &__link {
+        display: inline-block;
+        color: $second-color;
+        transition: 0.5s all;
+        &:hover {
+            color: #036FC7;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+    }
+}

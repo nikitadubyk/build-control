@@ -1,0 +1,17 @@
+.promo {
+    &__title {
+        display: block;
+        margin: 75px auto 0 auto;
+        width: 810px;
+        text-align: center;
+    }
+    &__wrapper {
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+    }
+    &__btn {
+        margin: 0 8px;
+    }
+
+}

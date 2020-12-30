@@ -1,0 +1,31 @@
+.btn {
+    padding: 5px 15px;
+    height: 34px;
+    background-color: $main-color;
+    border: 1px solid $main-color;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    transition: 0.5s all;
+    &:hover {
+        background-color: #181f24;
+        box-shadow: 2px 2px 20px #5e5e5e;
+    }
+    &_main {
+        height: 50px;
+        font-size: 18px;
+    }
+    &_white {
+        height: 50px;
+        background-color: #ffff;
+        border: 1px solid #DADEDF;
+        font-size: 18px;
+        color: $main-color;
+        &:hover {
+            background-color: #fff;
+        }
+    }
+}
