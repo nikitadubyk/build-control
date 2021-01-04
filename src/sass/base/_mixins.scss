@@ -1,0 +1,12 @@
+@mixin underline {
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 235px;
+        height: 16px;
+        background-color: #FFD042;
+        z-index: -1;
+    }
+}

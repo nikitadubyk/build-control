@@ -1,8 +1,8 @@
 .promo {
     &__title {
         display: block;
-        margin: 75px auto 0 auto;
-        width: 810px;
+        margin: 175px auto 0 auto;
+        width: 830px;
         text-align: center;
     }
     &__wrapper {
@@ -13,5 +13,12 @@
     &__btn {
         margin: 0 8px;
     }
-
+    &__background {
+        display: block;
+        margin: 88px auto 0 auto;
+    }
+    &__subbackground {
+        display: block;
+        margin: 36px auto 0 auto;
+    }
 }

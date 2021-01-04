@@ -1,0 +1,11 @@
+.company {
+    padding-bottom: 56px;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &__img {
+        margin: 0 20px;
+    }
+}

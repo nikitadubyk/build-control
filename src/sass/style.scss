@@ -1,11 +1,16 @@
 @import 'libs/bootstrap-reboot.min.css';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 @import 'base/variables';
 @import 'base/mixins';
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
 }
 
 
@@ -13,3 +18,9 @@
 @import 'blocks/btn';
 @import 'blocks/promo';
 @import 'blocks/title';
+@import 'blocks/power';
+@import 'blocks/haos';
+@import 'blocks/help';
+@import 'blocks/company';
+@import 'blocks/about-us';
+@import 'blocks/delivery';

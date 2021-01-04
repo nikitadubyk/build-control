@@ -1,0 +1,42 @@
+.help {
+    padding-bottom: 71px;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        &-text {
+            width: 525px;
+        }
+    }
+    &__title {
+        text-align: left;
+    }
+    &__img {
+        width: 464px;
+        img {
+            width: 100%;
+        }
+    }
+    &__descr {
+        font-size: 20px;
+        line-height: 32px;
+        color: $second-color;
+    }
+    &__text {
+        position: relative;
+        margin-top: 25px;
+        font-size: 20px;
+        line-height: 32px;
+        color: $main-color;
+        z-index: 2;
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 235px;
+            height: 16px;
+            background-color: #FFD042;
+            z-index: -1;
+        }
+    }
+}

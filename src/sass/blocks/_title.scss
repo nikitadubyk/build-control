@@ -4,5 +4,26 @@
     &_fz48 {
         font-size: 48px;
         line-height: 64px;
-    }   
+        text-align: center;
+    }
+    &_fz32 {
+        font-size: 32px;
+        line-height: 48px;
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+    }
+    &_fz18 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: $second-color;
 }
